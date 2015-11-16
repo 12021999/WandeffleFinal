@@ -9,8 +9,8 @@ public class HighScore : MonoBehaviour {
 	private string link;
 	void Start()
 	{
-		Network.proxyIP = "10.10.10.1";
-		Network.proxyPort = 3128;
+		//Network.proxyIP = "10.10.10.1";
+		//Network.proxyPort = 3128;
 		Network.useProxy = true;
 		link = "http://jamalnave1.16mb.com/index.php";
 		StartCoroutine(GetHighScore(link));
